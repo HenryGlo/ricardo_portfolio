@@ -1,0 +1,150 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: white;
+}
+
+.page-text-primary {
+  color: #F9A826;
+}
+
+span {
+  color: #F9A826;
+}
+
+.page-header {
+  background: #232323;
+  padding: 20px 0 !important;
+  border-bottom: 1.5px solid #F9A826;
+  font-family: 'Raleway', sans-serif;
+
+  .navbar-brand {
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+    @media only screen and (max-width: 1000px) {
+      font-size: 20px;
+    }
+  }
+  .navbar-collapse {
+    justify-content: center;
+    @media only screen and (max-width: 1000px) {
+      justify-content: flex-start;
+    }
+    ul {
+      li a {
+        color: white;
+        font-size: 22;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.banner-section {
+  min-height: 100vh;
+  background: #232323;
+  padding: 120px 0;
+  .image-container {
+    width: 90%;
+  }
+  .banner-title {
+    color: white;
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 12%;
+    @media only screen and (max-width: 1000px) {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 30px;
+      line-height: 40px;
+      margin-left: 0;
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-section {
+  background: #232323;
+  padding: 200px 0;
+  .avatar-circle {
+    border: 2px solid #F9A826;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/profile_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media only screen and (max-width: 1000px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  .items-container {
+    margin-top: 30px;
+    i {
+      margin: 0 5%;
+      font-size: 30px;
+      cursor: pointer;
+      &:hover {
+        color: #bb7300;
+      }
+    }
+  }
+
+  .profile-name {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F9A826;
+
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  .profile-description {
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+}
+
+.projects-section {
+  background: #232323;
+  ul {
+    list-style: none;
+    li {
+      font-size: 45px;
+      font-weight: 800;
+      color: white;
+      span {
+        font-weight: 300;
+        font-size: 18px;
+        margin-right: 10%;
+      }
+    }
+  }
+
+  .project-item {
+    padding-top: 100px;
+    .title {
+      color: #F9A826;
+      font-size: 50px;
+      font-weight: 800;
+    }
+  }
+}
+
+.intersitial-section {
+  height: 30px;
+  background: #232323;
+}
