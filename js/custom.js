@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
 
 $.scrollify({
   section : ".animated-section",
-  scrollSpeed: 400,
-  interstitialSection : ".intersitial-section",
+  scrollSpeed: 80,
+  interstitialSection: ".intersitial-section",
   setHeights: false
 });

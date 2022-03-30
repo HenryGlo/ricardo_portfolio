@@ -33,13 +33,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Mi trabajo</a>
+                  <a class="nav-link" href="#who_i_am">Who I am</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    My Projects
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-dark"  href="#my_job_1">University</a></li>
+                    <li><a class="dropdown-item text-dark" href="#my_job_2">LeagueStory</a></li>
+                    <li><a class="dropdown-item text-dark" href="#my_job_3">Personal</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#contact">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -49,23 +59,20 @@
     </nav>
   </header>
 
-  <section class="banner-section animated-section d-flex align-items-center">
+  <section class="banner-section animated-section d-flex align-items-center" id="home">
       <div class="container-fluid">
         <!-- Swiper -->
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <h1 class="banner-title"><span>ME FASCINAN LAS PALABRAS.</span>  ME FASCINA USARLAS PARA <span>CREAR MIS PROPIAS HISTORIAS</span>, ADEMAS DE HISTORIAS PARA  <span>MARCAS INTERESANTES.</span></h1>
-            </div>
-            <div class="swiper-slide">
-              <h1 class="banner-title"><span>ME FASCINAN LAS PALABRAS.</span>  ME FASCINA USARLAS PARA <span>CREAR MIS PROPIAS HISTORIAS</span>, ADEMAS DE HISTORIAS PARA  <span>MARCAS INTERESANTES.</span></h1>
+                <h1 class="banner-title"><span>I am a young</span>, creatively ambitious writer <span>looking to collaborate</span> with a team in the creation of <span>something fantastic.</span> </h1>
             </div>
           </div>
         </div>
       </div>
   </section>
 
-  <section class="profile-section animated-section">
+  <section class="profile-section animated-section" id="who_i_am">
     <div class="row">
       <div class="col-lg-3 d-flex flex-column align-items-center">
         <div class="avatar-circle"></div>
@@ -77,27 +84,20 @@
       </div>
 
       <div class="col-lg-7">
-        <div class="profile-name">
-          <h1><span>¡HOLA!</span> Soy Ricardo Escuela.</h1>
-        </div>
         <div class="profile-description">
-          Tuve varios puestos de redaccion profesional en las areas de
-          publicidad, marketing, periodismo y entretenimiento, en los 
-          que tuve la responsabilidad de escribir de todo, desde textos 
-          sociales hasta articulos de 10 000 palabras. <br /><br />
-
-          Ademas, publique tres novelas y escribi cuentos para varias 
-          revistas literarias destacadas. MI ultima novela fue seleccionada 
-          como opcion en una productora important ede cine para 
-          desarrollar un  programa de television. Vivo en la ciudad de 
-          Nueva York,  pero tengo disponibilidad para viajar en caso de 
-          contratos de consultoria mas extensos<br /><br />
+          <div class="profile-name">
+            <h1><span>My name is </span>Ricardo Perez.</h1>
+          </div>
+          I started writing at a young age in a journal where I recorded thoughts, reflections and insights of the world around and within. This was shortly before starting my degree in psychology. <br /><br />
+          During my studies at the university I kept a dream journal, did research on various psychology paradigms (old and new) and focused on psychoanalysis. Specifically, a volume of Sigmund Freud’s first works that I still own.<br /><br />
+          More recently, I became acquainted with other forms of literature, specifically classic novels of different regions and science fiction. I created a blog in which I published short stories parallel to the lore of a infamous videogame.<br /><br />
+          Now I’m finishing a postgraduate degree on Scriptwriting at Bournemouth University.
         </div>
       </div>
     </div>
   </section>
 
-  <section class="projects-section animated-section">
+  <section class="projects-section animated-section" id="my_job_1">
     <div class="row">
       <div class="col-lg-8">
         <div class="project-item">
@@ -109,7 +109,13 @@
             <li><span>04.</span> Proyecto 4</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="projects-section animated-section" id="my_job_2">
+    <div class="row">
+      <div class="col-lg-8">
         <div class="project-item">
           <p class="title">LeagueStory</p>
           <ul>
@@ -119,7 +125,13 @@
             <li><span>04.</span> Proyecto 4</li>
           </ul>
         </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="projects-section animated-section" id="my_job_3">
+    <div class="row">
+      <div class="col-lg-8">
         <div class="project-item">
           <p class="title">Personales</p>
           <ul>
@@ -132,7 +144,7 @@
       </div>
     </div>
   </section>
-  <div class="intersitial-section"></div>
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/457446ecd5.js" crossorigin="anonymous"></script>
