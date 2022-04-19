@@ -80,7 +80,7 @@ span {
 
 .profile-section {
   background: #232323;
-  padding: 200px 0;
+  padding: 100px 0;
   @media only screen and (max-width: 1000px) {
     padding: 100px 0;
   }
@@ -171,6 +171,13 @@ span {
       color: #F9A826;
       font-size: 50px;
       font-weight: 800;
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 20px;
+        margin-left: 5%;
+        color: #b47002;
+      }
       @media only screen and (max-width: 1000px) { 
         font-size: 30px;
       }
@@ -181,4 +188,37 @@ span {
 .intersitial-section {
   height: 30px;
   background: #232323;
+}
+
+.contact-section {
+  background: #232323;
+  padding: 200px 0;
+  .title {
+    text-align: center;
+    color: #F9A826;
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .subtitle {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .subtitle-2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  i {
+    color: #F9A826;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  .icon-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+  }
 }
